@@ -1,0 +1,6 @@
+.depend
+annlight/.depend
+annlight/ann
+computeConfInd
+sparrow
+*.o
