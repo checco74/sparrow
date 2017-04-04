@@ -53,12 +53,12 @@ bin/computeConfInd.o : src/computeConfInd.C
 	$(CCOMP) -c src/computeConfInd.C -o bin/computeConfInd.o -Iinclude $(OPT)
 
 ann :
-	cd $(ANN_DIR) ; make ; cd ../
+	$(MAKE) -C $(ANN_DIR)
 
 archive : clean reset
 	tar -czvf sparrow.tar.gz include src bin $(ANN_DIR) Makefile *.sh
 
-clean :
+clean : reset
 	rm -f *.log
 	rm -f *.dat
 	rm -f *.csv
@@ -67,7 +67,9 @@ clean :
 	rm -f *.niv
 	rm -f *.tex
 	rm -f dbg*
-	cd $(ANN_DIR) ; make clean ; cd ../
+	$(MAKE) -C $(ANN_DIR) clean
+	$(RM) computeConfInd annlight/ann
+
 
 reset :
 	rm -f bin/*.o
