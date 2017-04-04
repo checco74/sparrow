@@ -1,6 +1,7 @@
 #include "KMeansClusterer.h"
 #include <cmath>
 #include <iostream>
+#include <string.h>
 
 KMeansException::KMeansException() throw()
 {

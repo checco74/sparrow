@@ -1,4 +1,6 @@
 #include "ANNException.h"
+#include <string.h>
+
 
 /**
  * @brief Standard constructor for a <code>ANNException</code>.

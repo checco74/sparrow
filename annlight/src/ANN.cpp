@@ -4,6 +4,7 @@
 #include <list>
 #include "math.h"
 //#include "assert.h"
+#include <stdlib.h>
 
 #ifdef ANN_DEBUG_MODE
 const std::string DEBUG_FILE_NAME = "ann.debug";

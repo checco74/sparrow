@@ -8,6 +8,8 @@
 #include "ParserException.h"
 #include "KMeansClusterer.h"
 #include "math.h"
+#include <stdlib.h>
+#include <string.h>
 
 const std::string DATA_LEARN_FILE_NAME = "data.learnfile";
 const std::string DATA_LEARN_FILE_DEFAULT = "";

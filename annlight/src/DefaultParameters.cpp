@@ -1,6 +1,7 @@
 #include "DefaultParameters.h"
 #include "SigmoidFunction.h"
 #include <iostream>
+#include <stdlib.h>
 
 const std::string DefaultParameters::OPTIMIZATION_GRADIENT_STR = "grad";
 const std::string DefaultParameters::OPTIMIZATION_RPROP_STR = "rprop";

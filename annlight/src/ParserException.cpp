@@ -1,4 +1,5 @@
 #include "ParserException.h"
+#include <string.h>
 
 /**
  * @brief Standard constructor for a <code>ParserException</code>.

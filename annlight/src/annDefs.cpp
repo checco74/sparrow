@@ -4,6 +4,7 @@
 #include <list>
 #include <sstream>
 //#include "ProfileReader.h"
+#include <stdlib.h>
 
 typedef std::list<std::string> ResidueList;
 typedef std::list<ResidueList*> ProteinList;
