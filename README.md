@@ -16,14 +16,17 @@ a sequence of amino acids (in FASTA format).
 compiling SPARROW
 -----------------
 
-enter 'make' in the sparrow directory.
-
+```
+git clone https://github.uio.no/****/sparrow
+cd sparrow
+make
+```
 
 running SPARROW
 ---------------
 
-run the C-shell (requires tcsh to be installed) script run_sparrow-nn.sh.
-for a brief help on the available features run with '-h' option.
+run the C-shell (requires tcsh to be installed) script `run_sparrow-nn.sh`.
+for a brief help on the available features run with `-h` option.
 
 
 
